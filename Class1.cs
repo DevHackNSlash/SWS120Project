@@ -10,17 +10,17 @@ namespace SWS120Project
     {
         class Person
         {
-            string studentID;
+            string ID;
             string firstName;
             string lastName;
             string email;
             string phoneNumber;
 
             //properties
-            public string studentID_
+            public string ID_
             {
-                get { return studentID_; }
-                set { studentID_ = value; }
+                get { return ID; }
+                set { ID = value; }
             }
             public string firstName_
             {
@@ -53,6 +53,11 @@ namespace SWS120Project
             {
                 get { return programCode; }
                 set { programCode = value; }
+            }
+
+            public showStudentInfo()
+            {
+                Console.WriteLine();
             }
         }
 
